@@ -1,0 +1,5 @@
+#block1 img{width:100%}
+#ask{padding-top: 1em; font-size: 1.3em;text-align:center;}
+#ask span{cursor:pointer;font-weight:bold}
+footer #total, footer #score{text-align: center;}
+

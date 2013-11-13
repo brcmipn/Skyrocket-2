@@ -1,0 +1,11 @@
+#block1 .block30{display:inline-block;vertical-align:top;width:30%;}
+#block1 .block30 img{width:120%}
+#block1 ul{font-size: 1.3em;padding:5em 0 0 0;}
+#block1 ul li{list-style:none;text-align:center;width:100%;margin:1.5em 0}
+#block1 ul li:hover{color:#ffa500;cursor:pointer;text-shadow:1px 1px 1px #333}
+#opc{text-align:center;}
+#opc li{display:inline-block;vertical-align:top;list-style:none;margin:1em}
+#opc li:hover{cursor:pointer;color:#ffa500;text-shadow:1px 1px 1px #333}
+#ask{font-size: 1.3em;text-align:center}
+footer #total, footer #score{text-align: center;}
+

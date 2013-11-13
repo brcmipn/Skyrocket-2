@@ -1,0 +1,12 @@
+#block1 .stage{position:relative;max-height:500px;}
+#block1 .stage .imgstage{width:100%}
+#opc{text-align:center;}
+#opc img{width:10%; margin: 0 2em 0 0;}
+#stage1 .drop{width:13%;display:inline-block;position:relative;left:30%;top:-350px;vertical-align:top;height:250px}
+#stage2 .drop{width:19%;display:inline-block;position:relative;top:-350px;vertical-align:top;height:250px}
+@media (max-width: 900px){#block1 .stage{max-height:300px}
+#stage1 .drop{top:-250px}
+#stage2 .drop{top:-250px;height:200px}
+}
+footer #total, footer #score{text-align: center;}
+

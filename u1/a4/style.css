@@ -1,0 +1,12 @@
+#audio{display:none}
+#main{width:90%}
+#stage,#opciones{display:inline-block;min-height:420px;vertical-align:top;width:60%;}
+#stage img,#opciones img{width:100%}
+#opciones{background:url("img/opc.jpg");background-size:100%;background-repeat:no-repeat;width:35%;}
+#opciones ul{margin-top:1em;list-style:none;text-align:center;font-size: 1.3em;}
+#opciones ul li{cursor:pointer;margin:1em 0;width:100%}
+#opciones ul li:hover{color:#ffa500;text-shadow:1px 1px 1px #333}
+#opciones ul .m{display:inline-block;width:45%}
+#preg{font-size: 1.3em; text-align:center}
+@media (max-width: 1000px){#opciones ul{margin-top:1em}
+}

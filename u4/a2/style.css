@@ -1,0 +1,14 @@
+#block1 .stage2{display:none}
+#block1 div{display:inline-block;vertical-align:top}
+#block1 .block60{width:50%;}
+#block1 .block60 .rej{width:30%;display:inline-block;vertical-align:top;}
+#block1 .block60 .rej img{width:150%;position:relative}
+#block1 .block40{font-size:1.2em;overflow:hidden;line-height:30px;width:40%;padding-left:2em}
+#ans{font-size:1.3em;margin:0 auto;width:80%;}
+#ans ul{margin:2em 0;}
+#ans ul li{cursor:pointer;display:inline-block;list-style:none;margin:0 .5em;vertical-align:top}
+
+footer #total, footer #score{text-align: center;}
+@media (max-width:1000px){#ans{width:100%;}
+#ans ul li{margin:0 .5em}
+}

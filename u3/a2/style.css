@@ -1,0 +1,11 @@
+#block1 div{display:inline-block;vertical-align:top}
+#block1 .block-25{width:25%; height: 250px;}
+#block1 .block-25 ul{font-size:1.3em;list-style:none;text-align:center;min-height:200px;}
+#block1 .block-25 ul li{cursor:pointer;padding:1em 0}
+#block1 .block-25 ul li:hover{color:#ffa500;text-shadow:1px 1px 1px #333}
+#block1 .block-25:first-child{background:url("img/opc.png");background-size:100%;background-repeat:no-repeat}
+#block1 .block-25:last-child{background-size:30%;background-repeat:no-repeat;background-position:center;text-align:center;}
+#block1 .block-25:last-child img{width:30%}
+#block1 .block-50{width:45%;}
+#block1 .block-50 img{width:100%}
+#ans{font-size:1.3em;margin:0 auto;text-align:center;width:70%}

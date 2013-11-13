@@ -1,0 +1,8 @@
+#block1 div{display:inline-block;vertical-align:top}
+#block1 .block3{background:url("img/opc.png");background-size:100% 100%;width:30%}
+#block1 .block7{width:65%;}
+#block1 .block7 img{width:100%}
+#block1 #opc{padding:.5em 0 0 0;}
+#block1 #opc li{font-size:1.3em;cursor:pointer;text-align:center;list-style:none;margin:.6em 0}
+#block1 #opc li:hover{color:#ffa500;text-shadow:1px 1px 1px #333}
+#ans{font-size:1.3em;text-align:center;height:40px}

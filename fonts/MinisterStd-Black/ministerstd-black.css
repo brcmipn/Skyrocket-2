@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MinisterStdBlack';
+    src: url('ministerstd-black.eot');
+    src: url('ministerstd-black.eot') format('embedded-opentype'),
+         url('ministerstd-black.woff') format('woff'),
+         url('ministerstd-black.ttf') format('truetype'),
+         url('ministerstd-black.svg#MinisterStdBlack') format('svg');
+}

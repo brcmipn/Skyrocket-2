@@ -1,0 +1,10 @@
+#block1{height:400px;}
+#block1 #resuelto{width:70%;height:90%;float:right;padding:2em 0 0 0}
+#ask{font-size: 1.3em; text-align:center}
+#opc li{list-style:none;vertical-align:top;display:inline-block;margin:1em}
+#opc li:hover{cursor:pointer;color:#ffa500;text-shadow:1px 1px 1px #333}
+#ans p{display: inline-block; vertical-align: top;}
+footer #total, footer #score{text-align: center;}
+@media (max-width: 900px){#block1{height:300px}
+}@media (max-width: 800px){#block1{height:250px}
+}

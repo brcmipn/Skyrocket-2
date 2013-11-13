@@ -1,0 +1,15 @@
+audio{display:none}
+#block1 .block-50{display:inline-block;vertical-align:top}
+#block1 .block-50:first-child{width:35%;}
+#block1 .block-50:first-child img{width:40%}
+#block1 .block-50:first-child .rig{text-align:right;}
+#block1 .block-50:first-child .rig p{float:right}
+#block1 .block-50:first-child p{color:#00aeef;/*border:1px solid #ccc;*/cursor:pointer;font-size:1.2em;z-index:3}
+#block1 p{padding:.5em 0}
+#block1 #text{background:url("img/libro.png");background-position:top;background-repeat:no-repeat;background-size:115%;font-size:1.2em;width:60%;}
+#block1 #text div{width:85%;margin:14% 0 0 20%}
+input{border:1px solid #ccc}
+footer #total, footer #score{text-align: center;}
+@media (max-width: 800px){#text{font-size:.5em}
+.block-50:first-child p{font-size:.7em}
+}

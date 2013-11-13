@@ -1,0 +1,128 @@
+@font-face 
+    font-family 'tit'
+    src url('ministerstd-black.eot')
+    src url('ministerstd-black.eot') format('embedded-opentype'),
+         url('ministerstd-black.woff') format('woff'),
+         url('ministerstd-black.ttf') format('truetype'),
+         url('ministerstd-black.svg#MinisterStdBlack') format('svg')
+
+*
+	border 0
+	padding 0
+	margin 0
+	border none
+body
+	margin 0 auto
+	width 837px
+header 
+	height 200px
+	width 100%
+	#titulo
+		h1
+			font-family 'tit'
+			margin 1.7em 0 0 4.5em
+			font-weight bolder
+			-webkit-text-stroke: 1px white
+			text-shadow 1px 2px 2px #666
+			text-shadow -2px -0px 0px white,
+			 2px -0px 0px white,
+			 -0px 2px 0px white,
+			 3px 3px 2px #666
+		p
+			font-weight bold 
+			margin 1em 0 0 8em
+		span
+			color #fff
+			font-size 2em
+			font-family Georgia, serif
+			position relative
+			margin 0 0 0 1.65em 
+			top -14px 
+	.red
+		background url('../header.jpg')
+		background-repeat no-repeat
+		h1
+			color red
+			
+	.blue
+		background url('../headerb.jpg')
+		background-size auto 100%
+		background-repeat no-repeat
+		h1
+			color #0066B2
+	.green
+		background url('../headerg.jpg')
+		background-size auto 100%
+		background-repeat no-repeat
+		h1
+			color #008f4c
+			
+	.fifty
+		display inline-block
+		height 100%
+		vertical-align top
+		width 70%
+	.fifty:last-child
+		width 25%
+	#btn
+		background url('../btn.png')
+		background-position right top
+		background-repeat no-repeat
+		background-size 100%
+#audio
+	display inline-block
+#main 
+	margin 0 auto
+	width 80%
+	/*width 750px*/
+input
+	border-bottom 1px solid #ccc
+	text-align center
+footer
+	background url('../footer.jpg')
+	background-position left
+	background-repeat no-repeat
+	height 110px
+	#score, #total
+		color #ED1C24
+		text-align right
+		font-size 2.3em
+		height 55px
+		padding-top 10px
+		width 40px
+	#total
+		color #F9A64A
+		padding-top 0
+		position relative
+		top -5px
+		width 50px
+	#try
+		cursor pointer
+		display none
+		float right
+		position relative
+		right 2em
+#red
+	background url('../footer.jpg')
+	background-position left
+	background-repeat no-repeat
+#blue
+	background url('../footerb.jpg')
+	background-position left
+	background-repeat no-repeat
+	#score
+		color #0066B2
+	#total
+		color #72D0F6
+#green
+	background url('../footerg.jpg')
+	background-position left
+	background-repeat no-repeat
+	#score
+		color #008f4c
+	#total
+		color #80cecf
+
+@media (max-width:837px )
+	body
+		//width 100%

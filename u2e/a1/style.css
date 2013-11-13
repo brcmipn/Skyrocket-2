@@ -1,0 +1,8 @@
+audio{display:none}
+#block1 >div{display:inline-block;vertical-align:top}
+#block1 #svg{width:80%;text-align:center}
+#block1 #panel{width:90px;}
+#block1 #panel img{width:100%;cursor:pointer}
+#block1 .draw:hover{cursor:pointer}
+header #titulo span{}
+footer #total{width:58px}

@@ -1,0 +1,16 @@
+#block1 img{cursor:pointer;width:50%}
+#block1 .line{width:100%;height:200px; position:relative;z-index:3}
+#block1 .right{text-align:center;position:relative;top:-130px;z-index:2}
+#block1 .block40,#block1 .block60{font-size: 1.3em;display:inline-block;vertical-align:top}
+#block1 .block40{width:40%;}
+#block1 .block40 img{width:100%}
+#block1 .block60{width:55%}
+#btn1{text-align:center;display:none;}
+#btn1 img{cursor:pointer;margin:0 1em;width:100px}
+#opc{font-size: 1.3em;display:none;text-align:center;}
+#opc ul{background:url("img/opc.png");background-size:100% 100%;padding:.5em;margin:.5em;}
+#opc ul li{display:inline-block;list-style:none;vertical-align:top;margin:1em}
+#opc li{display:inline-block;vertical-align:top;margin:1em 0;cursor:pointer}
+#opc li:hover{color:#ffa500;text-shadow:1px 1px 1px #333}
+footer #total, footer #score{text-align: center;}
+

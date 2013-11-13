@@ -1,0 +1,10 @@
+#block1 .block{display:inline-block;vertical-align:top;height:400px}
+#block1 .block30{width:30%;}
+#block1 .block30 h3{text-align:center;position:relative;top:-65px;width:100%}
+#block1 #clara,#block1 #lisa{background:url("img/opc.png");background-size:100% 100%;text-align:right;}
+#block1 #clara img,#block1 #lisa img{position:relative;top:-40px;right:-40px;width:45%}
+#img{width:60%;margin:0 auto;}
+#img img{width:20%;cursor:pointer}
+#rep{cursor:pointer}
+@media (max-width: 1000px){#block1 .block30{height:300px}
+}

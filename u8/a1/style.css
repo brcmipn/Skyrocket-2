@@ -1,0 +1,8 @@
+#block1 {text-align: center;}
+#block1 img{width:70%}
+#ask{font-size: 1.3em; text-align:center; padding: 0.5em;}
+#finished{cursor:pointer;float:right;width:100px}
+#opc{background:url("img/opc.png");background-size:100% 100%;padding:0;text-align:center;margin:1em auto;width:70%;}
+#opc li{font-size: 1.2em;display:inline-block;vertical-align:top;margin:.5em 1em}
+#globo{width: 10%; float:right; position: relative; top: -100px;}
+footer #total, footer #score{text-align: center;}

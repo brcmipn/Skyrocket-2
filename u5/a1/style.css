@@ -1,0 +1,8 @@
+*{clear:right;cursor:pointer}
+#block1 img{width:45%}
+#ask{background:url("img/opc.png");background-size:85% 100%;text-align:right; background-repeat: no-repeat; margin:0 auto;width:80%;}
+#ask .or{font-size:1.3em;text-align:center;padding:1em 0;width:85%;}
+#ask .or input{background:#a6dcf8}
+#finished{float:right;width:100px}
+footer #total, footer #score{text-align: center;}
+

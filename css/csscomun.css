@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'MinisterStdBlack';
+    src: url('../fonts/ministerstd-black.eot');
+    src: url('../fonts/ministerstd-black.eot') format('embedded-opentype'),
+         url('../fonts/ministerstd-black.woff') format('woff'),
+         url('../fonts/ministerstd-black.ttf') format('truetype'),
+         url('../fonts/ministerstd-black.svg#MinisterStdBlack') format('svg');
+}
+
+*{border:0;padding:0;margin:0;border:none}
+body{margin:0 auto;width:1024px}
+header{height:130px;/*width:100%;*/}
+header #titulo h1{margin:1.15em 0 0 3.8em;/*font-weight:bolder;-webkit-text-stroke:1px #fff;text-shadow:1px 2px 2px #666;*/text-shadow:-3px 1px 1px #fff,3px 1px 1px #fff,1px 3px 1px #fff,4px 4px 2px #666}
+header #titulo p{font-weight:bold;margin:-1.6em 0 0 3.5em; font-size: 1.5em; }
+header #titulo p img{padding-right: 0.5em;}
+header #titulo span{color:#fff;font-size:2em;font-family:Georgia,serif;position:relative;margin:0 0 0 0.88em;top:-30px}
+header .red{background:url("../corniza.png");background-repeat:no-repeat;}
+header .red h1{color:#f00}
+header .blue{background:url("../cornizab.png");background-repeat:no-repeat;}
+header .blue h1{color:#0066b2}
+header .green{background:url("../cornizac.png");background-repeat:no-repeat;}
+header .green h1{color:#008f4c}
+header .fifty{display:inline-block;height:100%;vertical-align:top;width:70%}
+header .fifty:last-child{width:25%}
+header #btn{background:url("../btn.png");background-position:right top 40px;background-repeat:no-repeat;/*background-size:100%*/}
+#audio{display:inline-block}
+#main{margin:0 auto;width:80%;}
+input{border-bottom:1px solid #ccc;text-align:center}
+footer{background:url("../footer.jpg");background-position:left; background-position: 1em 0; background-repeat:no-repeat;height:110px;}
+footer #score,footer #total{color:#ed1c24;text-align:right;font-size:2.3em;height:55px;padding:8px 0 0 14px;width:40px}
+footer #total{color:#f9a64a;padding-top:0;position:relative;top:-8px;width:50px}
+footer #try{cursor:pointer;display:none;float:right;position:relative;right:2em}
+#red{background:url("../footer.jpg");background-position:left;background-repeat:no-repeat;}
+#blue{background:url("../footerb.jpg");background-position:left;background-repeat:no-repeat;}
+#blue #score{color:#0066b2}
+#blue #total{color:#72d0f6}
+#green{background:url("../footerg.jpg");background-position:left;background-repeat:no-repeat;}
+#green #score{color:#008f4c}
+#green #total{color:#80cecf}
+@media (max-width:837px ){}

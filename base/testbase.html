@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"></meta>
+<meta http-equiv="content-script-type" content="text/javascript">
+<title>Gumdrops 2 - Unidad 1 Actividad 1</title>
+
+<script type="text/javascript" charset="utf-8" src="../script/pxloader/PxLoader.js"></script>
+<script type="text/javascript" charset="utf-8" src="../script/pxloader/PxLoaderImage.js"></script>
+<script type="text/javascript" charset="utf-8" src="base.js"></script>
+
+<script type="text/javascript">
+
+var myCanvas = function (canvas, loader) {
+	var that = cnv(canvas, loader);
+	that.x=100;
+    that.titulo="hijo";
+
+    that.loadImagenes= function() {
+    	var myState=that;
+
+
+	}
+
+    that.draw= function() {
+		var myState=that;
+		var ctx=myState.ctx;
+
+		//ctx.drawImage(myState.corniza, myState.x, myState.y+30);
+		//ctx.drawImage(myState.logo, myState.x, myState.y+100);
+	}
+
+    return that;
+};
+</script>
+
+</head>
+<body>
+<header>
+</header>
+	<canvas id="mycanvas_bg" width="1024" height="768" style="z-index: 0;position:absolute;left:0px;top:0px;">
+	Su navegador no soporta el elemento canvas
+	</canvas>
+	<canvas id="mycanvas" width="1024" height="768" style="z-index: 1;position:absolute;left:0px;top:0px;">
+	Su navegador no soporta el elemento canvas
+	</canvas>
+</table>			
+</body>
+</html>

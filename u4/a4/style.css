@@ -1,0 +1,10 @@
+#block1 {text-align:center;}
+#block1 img{width:25%}
+#ask{font-size:1.3em;height:80px;text-align:center;width:100%;}
+#ask .or{display:inline-block;vertical-align:top;margin:0 auto;width:80%}
+#ask img{width:10%;cursor:pointer}
+#opc{text-align:center;font-size:1.3em;background:url("img/opc.png");background-size:100% 100%;text-align:center;margin:1em  auto;padding:1em 1em 1em 1em;width:100%;}
+#opc ul{padding:0;}
+#opc ul li{list-style:none;display:inline-block;vertical-align:top;margin:.5em}
+footer #total, footer #score{text-align: center;}
+

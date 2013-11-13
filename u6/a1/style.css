@@ -1,0 +1,8 @@
+#block1 img{width:100%}
+#ask{font-size: 1.3em;text-align:center}
+input{color: #fff}
+ul{padding:0;margin:1em 0;}
+ul li{list-style:none;display:inline-block;vertical-align:top;margin:.5em 1em}
+ul li:hover{color:#ffa500;cursor:pointer;text-shadow:1px 1px 1px #333}
+footer #total, footer #score{text-align: center;}
+

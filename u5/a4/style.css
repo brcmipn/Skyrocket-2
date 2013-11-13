@@ -1,0 +1,9 @@
+#block1 div{display:inline-block;vertical-align:top}
+#block1 .block40{font-size: 1.3em;width:45%; margin-top: 20px; }
+#block1 .block60{width:50%;}
+#block1 .block60 img{width:100%}
+#ask{font-size: 1.3em;text-align:center;}
+#ask ul{margin:0 1.2em 0 0}
+#ask li{list-style:none;cursor:pointer;display:inline-block;vertical-align:top;margin:1em}
+#ask li:hover{color:#ffa500;text-shadow:1px 1px 1px #333}
+footer #total, footer #score{text-align: center;}

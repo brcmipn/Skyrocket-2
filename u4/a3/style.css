@@ -1,0 +1,9 @@
+#block1 .stage2{display:none}
+#block1 div{font-size:1.3em;display:inline-block;vertical-align:top}
+#block1 .block40{width:35%;}
+#block1 .block40 img{width:100%}
+#block1 .block60{width:60%}
+#ans{font-size:1.3em;margin:0 auto;width:70%;text-align:center;}
+#ans ul{background:url("img/opc.png");background-size:100% 100%;background-repeat:no-repeat;height:60px;margin:1em 0;padding:2em 0 0 0;}
+#ans ul li{cursor:pointer;display:inline-block;list-style:none;margin:0 1em;vertical-align:top}
+footer #total, footer #score{text-align: center;}

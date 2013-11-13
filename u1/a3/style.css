@@ -1,0 +1,26 @@
+#block1 .grid3{display:inline-block;vertical-align:middle;width:55%;}
+#block1 .grid3 img{width:100%}
+#block1 .grid3 .clue{font-size: 1.1em;background:url("img/clue.jpg");background-repeat:no-repeat;background-size:100% 100%;min-height:40px;padding:1em;width:100%}
+#block1 .grid3 .clue:nth-child(2n){margin:1em 0}
+#block1 .grid3:first-child{background-repeat:no-repeat;background-position:center;background-size:7%;width:20%}
+#block1 .grid3:last-child{background-repeat:no-repeat;background-position:center;background-size:7%;width:20%;}
+#block1 .grid3:last-child .clue{background:url("img/cluer.png");background-repeat:no-repeat;background-size:100% 100%}
+#res{font-size: 1.3em;margin:0 auto;width:90%;}
+#res div:first-child{text-align:center;}
+#res div:first-child img{cursor:pointer;width:20%}
+#res .opc{display:inline-block;text-align:center;vertical-align:top;width:30%}
+#res input{text-align:center;width:30%}
+.flash{animation:flash .7s infinite;-webkit-animation:flash .7s infinite}
+footer #try{position:absolute}
+*{clear:both}
+@-moz-keyframes flash{0%{opacity:0}
+100%{opacity:1}
+}@-webkit-keyframes flash{0%{opacity:0}
+100%{opacity:1}
+}@-o-keyframes flash{0%{opacity:0}
+100%{opacity:1}
+}@-ms-keyframes flash{0%{opacity:0}
+100%{opacity:1}
+}@keyframes flash{0%{opacity:0}
+100%{opacity:1}
+}

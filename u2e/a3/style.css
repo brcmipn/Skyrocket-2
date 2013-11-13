@@ -1,0 +1,21 @@
+#audio{display:none}
+#main{width:90%}
+#block1{height:300px;}
+#block1 img{cursor:pointer;width:45%}
+#block1 #stage{display:none;position:relative;top:0;height:100%;width:100%;}
+#block1 #stage img{position:relative;top:15%;width:150%;z-index:2}
+#block1 #stage div{display:inline-block;height:100%;width:30%;vertical-align:top}
+#block1 #stage p{width:100%}
+#block1 #stage .s{background:url("img/texto.jpg");background-size:100%;background-position:top;background-repeat:no-repeat;width:65%;font-size:.7em}
+#block1 #stage .s h3,#block1 #stage .s p{margin:0 auto;width:60%}
+#block1 #stage .s h3{margin-top:3.8em}
+#opc{height:70px;}
+#opc ul{padding:0;text-align:center;width:100%}
+#opc li{cursor:pointer;display:inline-block;list-style:none;margin:.5em 1em;vertical-align:top}
+input{background:inherit}
+footer #total{width:58px}
+@media (max-width:1250px){#block1 #stage .s h3{margin-top:3.8em}
+#block1 #stage .s{font-size:.9em}
+}@media (max-width:900px){#block1 #stage .s{font-size:.7em}
+}@media (max-width:850px){#block1{height:300px}
+}

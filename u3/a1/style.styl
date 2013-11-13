@@ -1,0 +1,51 @@
+@keyframes intro
+	0% 
+		top -1000px
+	70%
+		top 40px
+	80%
+		top -10px
+	90% 
+		top 20px
+	100% 
+		top 0px
+
+#block1
+	width 90%
+	.tar
+		cursor pointer
+		display inline-block
+		position relative
+		vertical-align top
+		-webkit-transition 1s linear all
+		transition 1s linear all
+		top -1000px
+		transform-style preserve-3d
+		width 30%
+		img
+			width 100%
+		.pic
+			backface-visibility hidden
+			position absolute
+			transform rotateY(180deg) translateZ(1px)
+			-webkit-transform rotateY(180deg) translateZ(1px)
+			top 0
+			right -2px
+	.intro
+		-webkit-animation intro 1s 
+		-webkit-animation-iteration-count 1
+		animation-iteration-count 1
+		animation intro 1s 
+	.rotado
+		transform rotateY(180deg)
+		-webkit-transform rotateY(180deg)
+	.inicio
+		transform rotateY(-0deg)
+		-webkit-transform rotateY(-0deg)
+
+#btn
+	text-align center
+	img
+		cursor pointer
+footer #total
+	width 58px

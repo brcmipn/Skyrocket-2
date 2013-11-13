@@ -1,0 +1,10 @@
+#audio{display:none}
+#main{width:75%}
+#block1{height:300px;}
+#block1 img{float:left;height:46%}
+#block1 .gray{cursor:pointer}
+#opc{background:url("img/opcbg.jpg");background-size:100%;background-repeat:no-repeat;text-align:center;margin:0 auto;width:600px; height: 100px;}
+#opc ul{font-size: 1.2em; padding:0}
+#opc li{cursor:pointer;display:inline-block;list-style:none;margin:1.2em 0.8em}
+#opc li:hover{color:#fff;text-shadow:1px 1px 1px #333}
+#preg{font-size: 1.3em; text-align:center;height:20px;width:100%}

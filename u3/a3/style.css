@@ -1,0 +1,11 @@
+#block1{background:url("img/img.png");background-size:100%;background-repeat:no-repeat;}
+#block1 div{font-size:1.2em;display:inline-block;vertical-align:top;height:300px;padding:4em 0 0 1.5em}
+#block1 .block-2{width:20%; padding-bottom:60px;}
+#block1 .block-4{width:70%; padding-bottom:60px;}
+input{vertical-align: top;}
+#ans{font-size:1.3em;margin:0 auto;text-align:center;height:100px;width:70%;}
+#ans ul{padding:1em 0;}
+#ans ul li{cursor:pointer;display:inline-block;list-style:none;vertical-align:top;  width:30%}
+#ans ul li:hover{color:#ffa500;text-shadow:1px 1px 1px #333}
+#ask p{display: inline-block;}
+footer #total{width:58px}

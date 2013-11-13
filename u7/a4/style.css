@@ -1,0 +1,11 @@
+#block1 {text-align:center;}
+#block1 #img{width:60%}
+#carrousel{width:100%;text-align:center;margin:1em 0;}
+#carrousel div{border:1px solid #ccc;display:inline-block;vertical-align:top;width:70px;height:70px;background:#e1f3fd;overflow:hidden;}
+#carrousel div img{width:150%}
+#finished{cursor:pointer;margin:1em}
+#ask{font-size: 1.3em; text-align:center;}
+#ask #opc li{list-style:none;display:inline-block;vertical-align:top;margin:1em}
+#ask input{width:15%; font-size: .7em;}
+footer #total, footer #score{text-align: center;}
+

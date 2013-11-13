@@ -1,0 +1,41 @@
+@keyframes mover
+	0% 
+		transform rotate(15deg)
+	50% 
+		transform rotate(-15deg) 
+	100%
+		transform rotate(0deg)
+		
+
+#block1 
+	clear both
+	height 350px
+	.block-3
+		float left
+		width 33.33%
+		img
+			position relative
+			width 100%
+			z-index 3
+		.line img
+			cursor pointer
+			width 30%
+		.rigth
+			text-align right
+	.opc2
+		width 50%
+.mover
+	-webkit-animation mover 1s infinite 
+	animation mover 1s infinite 
+
+#abcd
+	display none
+	text-align center
+	li
+		cursor pointer
+		list-style none
+		display inline-block
+		margin 1em
+
+footer 
+	clear both
